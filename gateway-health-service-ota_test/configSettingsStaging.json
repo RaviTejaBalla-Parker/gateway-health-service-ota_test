@@ -1,0 +1,57 @@
+{   
+    "Values": {
+      
+      "AZURE_URL": "https://login.microsoftonline.com/parkercorp.onmicrosoft.com/oauth2/token",  
+      "GRANT_TYPE": "client_credentials",
+      "AZURE_RESOURCE": "https://management.core.windows.net/",      
+      "CLIENT_ID": "d8e795d1-6b8b-4455-994f-1fa00c4c8e15",
+      "CLIENT_SECRET": "HJ/zPB5fUboIdqr9A@8/RuVUTrBU6aF[",      
+      "VOM_API_URL": "https://api.parker.com/vom/devicedata/api/v3/accounts/C40768/devices",
+
+      "IOT_HUB_SHARED_ACCESS_KEY": "TPKAKdHY9Plf5V1YORoKx4ncCEkXJZu7IcOyEYyOSZ4=",      
+      "FUNCTIONS_RUNTIME_SCALE_MONITORING_ENABLED": "0",      
+      "WEBSITE_SLOT_NAME": "Production",
+      
+      "FUNCTIONS_EXTENSION_VERSION": "~2",
+      "COSMOS_ENDPOINT": "https://iot-operational-cosmosdb-stage.documents.azure.com:443/",
+      "COSMOS_MASTERKEY": "zi6ixfHEtlmHxCXrJBpj10EOVdBp1HTMaAYmwWiMqtuipiQa0o40WoCl94mzxdX5tLiCxhSpajyvkA4jHn2g7A==",
+      "COSMOS_DATABASE_NAME": "iotoperationalreport",
+      "COSMOS_CONTAINER_NAME": "OperationalDashboard",      
+      "WEBSITE_AUTH_ENABLED": "False",      
+      "REMOTEDEBUGGINGVERSION": "16.0.28729.10",
+      "AzureWebJobs.GatewayHealthServiceTest.Disabled": "true",
+      
+      "APPINSIGHTS_INSTRUMENTATIONKEY": "57dc7d51-7d9a-4858-8c0d-5cefb5363403",      
+      
+      "WEBSITE_NODE_DEFAULT_VERSION": "10.19.0",
+      "ScmType": "None",      
+      "WEBSITE_AUTH_AUTO_AAD": "False",
+      "IOT_HUB_HOST_NAME": "phc-iothub-iqan01-prd.azure-devices.net",
+          
+      "IOT_HUB_SHARED_ACCESS_KEY_NAME": "iothubowner",
+      "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=iiotdevtechmstorage;AccountKey=5+I75ZBqbyAB9M66bn3MzMqAktuFboGkxowBXgD0/p3Igja87nCbDw9BHmWz+keS6AlD7evY+ytHH7+tbMjezg==;EndpointSuffix=core.windows.net",
+      "ELEVATE_API_ORG_URL": "https://parkerelevat-account.parker.com/org/c6adcb40-be92-11e6-9ed6-a5bc9cb5279b?children=true",
+      "FUNCTIONS_WORKER_RUNTIME": "node",
+      "WEBSITE_SITE_NAME": "GatewayHealthService-Dev",
+      "ELEVATE_API_URL": "https://parkerelevat-auth.parker.com/login",
+      "ELEVATE_API_URL_EMAIL": "gatewaydashboard@bots.com",
+      "ELEVATE_API_URL_PASS": "926Cyvd4@3EAhF']",
+      "WEBSITE_AUTH_LOGOUT_PATH": "/.auth/logout",
+      "ELEVATE_API_MASTERTAG_URL": "https://parkerelevat-gateway.parker.com/v2/gateway/search?orgID=c6adcb40-be92-11e6-9ed6-a5bc9cb5279b&children=true&limit=",      
+      "PARTNUMBER_STORAGE_ACCOUNT_NAME": "iotbgroundjobstoragedev",
+      "PARTNUMBER_STORAGE_ACCOUNT_KEY": "Dkx8jArLBVl9v+c3M3I6LNW9PxqcJflsdHPVDW51InFVPrZDktibkQsnV5t6Jg769FWzCCoOsCtzc3dJAk0zFQ==",
+      
+      "CUSTOMER_COSMOS_ENDPOINT": "https://parkermsgiot-reports-staging.documents.azure.com:443/",
+      "CUSTOMER_COSMOS_DATABASE_NAME": "Metadata",
+      "CUSTOMER_COSMOS_CONTAINER_NAME": "DeviceCustomerMapping",
+      "CUSTOMER_COSMOS_MASTERKEY": "K0x4yuvrvyDHM99oODo0L18LwEEmh8RtdI7uH4D3bDhZx7iIILOCcsubt5E1uUxKWdIW0HWs4EvgblBPRwzDwg==",
+
+      "platformVersion": "v2",
+      "oktaAPIAuthUrl": "https://loginqa.parker.com/oauth2/ausv1tomfvk3o2TuB0h7/v1/token",
+      "oktaUserId": "0oav1pl7n7RaJcoJP0h7",
+      "oktaPassword": "Jc25AvVHWhDMLA-JxU0y5aKsyFItowi1GTzZHiBh",
+      "assetsAPI": "https://msgiot-stage.parkerhannifin.com/api/assets/org/c6adcb40-be92-11e6-9ed6-a5bc9cb5279b?mode=org-and-below&status=active,inactive,whitelisted",
+      "orgAPI": "https://msgiot-stage.parkerhannifin.com/ui/api/orgs?scope=all&includeTree=true",
+      "partNumbersAPI":"https://msgiot-stage.parkerhannifin.com/ui/api/partNumbers"
+    }
+  }
